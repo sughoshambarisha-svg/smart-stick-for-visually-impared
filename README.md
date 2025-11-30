@@ -36,8 +36,8 @@ Power On → Sensor Reads Distance → Is Obstacle Close?
                   Loop Continues
 
 Code:
-cpp
-#include <SoftwareSerial.h>
+```cpp
+<SoftwareSerial.h>
 
 const int trigPin = 9;    
 const int echoPin = 10;   
@@ -146,6 +146,7 @@ void vibratePattern(int times) {
   }
   delay(200);
 }
+```
 
 
 Prototype Image:
